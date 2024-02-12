@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: qotd
-          image: image-registry.openshift-image-registry.svc:5000/pipelines-tutorial/qotd:latest
+          image: docker.io/mkletz/qotd:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 10000
